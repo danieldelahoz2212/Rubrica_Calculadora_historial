@@ -1,0 +1,86 @@
+body{
+    background-image: url(be828c40bb5a13d25c1e2579514ed6f3.gif);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.titulo1{
+    text-align: center;
+    color: white;
+}
+
+.contenedor{
+    width: 30%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.758);
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+p{
+    margin-left: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#resultado{
+    background-color: white;
+    height: 80%;
+    width: 95%;
+    margin: 5px;
+    font-size: 4rem;
+    text-align: right;
+    border-radius: 15px;
+}
+
+.boton{
+    background-color: rgba(75, 74, 74, 0.797);
+    color: white;
+    width: 19.7%;
+    height: 20%;
+    font-size: 2.5rem;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.boton:hover{
+    border: 2px solid rgba(0, 0, 255, 0.674);
+}
+
+.botonAC{
+    background-color: rgb(75, 74, 74);
+    color: white;
+    width: 70.2%;
+    height: 20%;
+    font-size: 2.5rem;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.botonAC:hover{
+    border: 2px solid  rgba(0, 0, 255, 0.674);
+}
+
+.limpiar{
+    background-color: rgba(255, 0, 0, 0.627);
+}
+
+.operador{
+    background-color: rgba(120, 117, 117, 0.685);
+}
+
+.titulo{
+text-align: center;
+width: 145%;
+}
+
+.historial{
+    position: fixed;
+    left: 66%;
+    top: 52%;
+    text-align: right;
+    margin-top: -20%;
+    border-radius: 15px;
+}

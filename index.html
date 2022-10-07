@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="estilo.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <title>RUBRICA CORTE2</title>
+</head>
+<body>
+    <h1 class="titulo1">CALCULADORA</h1>
+   
+    <div class="contenedor animate__animated animate__backInDown">
+    <form>
+     <p>Resultado:</p>
+      <input type="text" id="resultado">
+      <br>
+      <input class="boton number" type="button" value="7" onclick="boton(value)">
+      <input class="boton number" type="button" value="8" onclick="boton(value)">
+      <input class="boton number" type="button" value="9" onclick="boton(value)">
+      <input class="boton operador" type="button" value="/" onclick="boton(value)">
+      <input class="boton number" type="button" value="4" onclick="boton(value)">
+      <input class="boton number" type="button" value="5" onclick="boton(value)">
+      <input class="boton number" type="button" value="6" onclick="boton(value)">
+      <input class="boton operador" type="button" value="*" onclick="boton(value)">
+      <input class="boton number" type="button" value="1" onclick="boton(value)">
+      <input class="boton number" type="button" value="2" onclick="boton(value)">
+      <input class="boton number" type="button" value="3" onclick="boton(value)">
+      <input class="boton operador" type="button" value="+" onclick="boton(value)">
+      <input class="boton number" type="button" value="." onclick="boton(value)">
+      <input class="boton number" type="button" value="0" onclick="boton(value)">
+      <input class="boton operador" type="button" value="=" onclick="respuesta()">
+      <input class="boton operador" type="button" value="-" onclick="boton(value)">
+      <input class="boton limpiar" type="button" value="C" onclick="resect(value)">
+      <input class="botonAC limpiar" type="button" value="AC" onclick="limpiar(value)">
+    </form>
+   </div>
+   <div>
+      <textarea class="historial animate__animated animate__fadeInRight" name="historial" id="historial" cols="30" rows="35"></textarea>
+   </div>
+   <script src="./logica.js"></script>
+</body>
+</html>
